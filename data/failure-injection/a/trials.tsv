@@ -1,0 +1,21 @@
+trial_n	outcome	duration_ms	details
+1	PASS	1325	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+2	PASS	1427	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+3	PASS	1520	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+4	PASS	1654	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+5	PASS	1522	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+6	PASS	1294	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+7	PASS	1433	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+8	PASS	1399	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+9	PASS	1478	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+10	PASS	1454	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+11	PASS	1455	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+12	PASS	1420	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+13	PASS	1527	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+14	PASS	1413	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+15	PASS	1419	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+16	PASS	1412	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+17	PASS	1487	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+18	PASS	1506	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+19	PASS	1414	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both
+20	PASS	1657	assertion fired (rc=1); actual=macf-code-agent expected=macf-science-agent; stderr names both

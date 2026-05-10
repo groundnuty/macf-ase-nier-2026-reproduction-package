@@ -1,0 +1,14 @@
+agent	date	total_hits	real_bash_invocations	tool_results	text_refs	other_refs
+science-agent	2026-04-14	179	37	0	0	142
+science-agent	2026-04-15	189	46	1	1	141
+science-agent	2026-04-16	29	1	1	0	27
+science-agent	2026-04-17	2	0	0	0	2
+science-agent	2026-04-20	1	0	0	0	1
+science-agent	2026-04-21	30	8	0	0	22
+science-agent	2026-04-22	3	0	0	0	3
+code-agent	2026-04-14	124	59	0	0	65
+code-agent	2026-04-15	245	124	2	2	117
+code-agent	2026-04-16	202	91	0	0	111
+code-agent	2026-04-17	227	135	0	0	92
+code-agent	2026-04-20	1	0	0	0	1
+code-agent	2026-04-21	15	0	0	0	15

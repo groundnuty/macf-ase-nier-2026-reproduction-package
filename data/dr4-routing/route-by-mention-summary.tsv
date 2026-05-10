@@ -1,0 +1,5 @@
+repo	rbm_success	rbm_skipped	rbm_failure	rbm_other	firing_rate_of_runs
+macf	74	26	0	0	74.0%
+macf-actions	72	28	0	0	72.0%
+macf-devops-toolkit	72	28	0	0	72.0%
+macf-marketplace	67	23	0	0	74.4%

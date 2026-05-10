@@ -1,0 +1,38 @@
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/48#issuecomment-4254384916|@macf-code-agent[bot] Plan LGTM. Two tiny things to think about:|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/48#issuecomment-4254415932|@macf-code-agent[bot] Reviewed PR #50. LGTM.|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/49#issuecomment-4254423742|@macf-code-agent[bot] Reviewed PR #51. LGTM.|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/48#issuecomment-4254444413|@macf-code-agent[bot] Merge verified on main (186b6c0), rebuild on VM clean, `dist/cli/prompt.js` present. Dependency-review flake noted — n|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/49#issuecomment-4254526052|@macf-code-agent[bot] PR #51 has a merge conflict with main (expected — #50 merged first and touched the same certs.ts lines you edit). GitH|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/52#issuecomment-4254809373|@macf-code-agent[bot] Ship-in-package is the right call. Your four reasons hold — especially "decoupling versioning from behavior" is exactl|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/52#issuecomment-4254956062|@macf-code-agent[bot] Reviewed PR #54. LGTM.|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/55#issuecomment-4254980300|@macf-code-agent[bot] Plan LGTM. bash script + files-in-package + .example update + coordination.md section — exactly the shape I wanted. Se|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/52#issuecomment-4254982133|@macf-code-agent[bot] Verification found a bug — can't close yet. `macf update` only copies rules when version-bumping actually happens:|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/52#issuecomment-4254999468|@macf-code-agent[bot] Bundle into #55 — agreed. Your architectural framing is exactly right ("asset distribution shouldn't be gated by versi|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/55#issuecomment-4255043769|@macf-code-agent[bot] Reviewed PR #56. LGTM.|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/48#issuecomment-4255434273|identity test — will delete|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/48#issuecomment-4255446630|identity smoke test — will delete|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/58#issuecomment-4256364947|@groundnuty PR #59 merged. Ready for you to close the issue when verified.|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/49#issuecomment-4256365584|@macf-science-agent[bot] PR #51 merged. Ready for you to close the issue when verified.|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/53#issuecomment-4256372299|@macf-science-agent[bot] Confirmed Path 2. One correction for the record: the plugin source is actually `groundnuty/macf-marketplace:macf-ag|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/62#issuecomment-4256446324|@macf-science-agent[bot] PR is ready for review. Please discuss in this issue thread.|macf
+2026-04-15|groundnuty|comment|https://github.com/groundnuty/macf/issues/61#issuecomment-4256447057|@macf-science-agent[bot] PR #64 merged. Ready for you to close the issue when verified.|macf
+2026-04-16|groundnuty|comment|https://github.com/groundnuty/macf/issues/83#issuecomment-4263348036|@macf-code-agent[bot] LGTM. Clean `resolveAgentLabel` helper with correct precedence (label > role > name > legacy). 7 tests including two r|macf
+2026-04-16|groundnuty|comment|https://github.com/groundnuty/macf/issues/82#issuecomment-4263348154|@macf-code-agent[bot] Verified — main HEAD is `5c1d5d5` ("fix(cli): repo-init always patch-merges existing agent-config (#82) (#91)"). Closi|macf
+2026-04-16|groundnuty|comment|https://github.com/groundnuty/macf/issues/84#issuecomment-4263377436|@macf-code-agent[bot] LGTM on code review. Three-state header (live health / registered-no-ping / not-registered) is the right factoring, `P|macf
+2026-04-16|groundnuty|comment|https://github.com/groundnuty/macf/issues/85#issuecomment-4263431500|@macf-code-agent[bot] LGTM. Wires the already-implemented `pingAgent` helper, adds `formatHealthDetail` consistent with dashboard patterns, |macf
+2026-04-16|groundnuty|comment|https://github.com/groundnuty/macf/issues/86#issuecomment-4263455891|@macf-code-agent[bot] LGTM. Pure `describeNonJwtOutput` helper, 6-char cap + length matches the canonical pattern in `scripts/macf-gh-token.|macf
+2026-04-16|groundnuty|comment|https://github.com/groundnuty/macf/issues/88#issuecomment-4263477629|@macf-code-agent[bot] LGTM. Inline doc block on the config is the right place — convention lives with the enforcer, no separate CONTRIBUTING|macf
+2026-04-16|groundnuty|comment|https://github.com/groundnuty/macf/issues/89#issuecomment-4263498148|@macf-code-agent[bot] LGTM. Good defense-in-depth fix compounding correctly with the #80 challenge verification:|macf
+2026-04-17|groundnuty|closure|https://github.com/groundnuty/macf/issues/121|security(certs): tighten /notify auth to verify clientAuth EKU (followup from #119 review)|macf
+2026-04-16|groundnuty|closure|https://github.com/groundnuty/macf/issues/82|bug(cli): repo-init without --force silently discards --agents on existing config|macf
+2026-04-15|groundnuty|closure|https://github.com/groundnuty/macf/pull/64|fix(cli,rules): fail-loud bot token helper + attribution check|macf
+2026-04-15|groundnuty|closure|https://github.com/groundnuty/macf/pull/59|feat(cli): macf rules refresh for non-init'd workspaces|macf
+2026-04-15|groundnuty|closure|https://github.com/groundnuty/macf/pull/51|fix(cli): log and read sanitized variable names|macf
+2026-04-15|groundnuty|closure|https://github.com/groundnuty/macf/issues/48|feat(cli): mask passphrase input in `macf certs init` / `macf certs recover`|macf
+2026-04-29|groundnuty|comment|https://github.com/groundnuty/macf-science-agent/pull/5#issuecomment-4343464282|@macf-science-agent[bot] PR ready for your review. Sister to devops-toolkit PR #61. 5-line diff to silent-fallback-hazards.md Instance 8 — a|macf-science-agent
+2026-04-29|groundnuty|closure|https://github.com/groundnuty/macf-science-agent/pull/8|tools(cv-e2e): bump STEP_TIMEOUT_SECS 600 → 1200 (run #9 evidence — pushback round needs 2-turn chain headroom)|macf-science-agent
+2026-04-29|groundnuty|closure|https://github.com/groundnuty/macf-science-agent/pull/7|fix(#6): cv-e2e-test design refinement — restore via proper PR (timeout bump + design-doc decisions)|macf-science-agent
+2026-04-17|groundnuty|comment|https://github.com/groundnuty/macf-actions/issues/6#issuecomment-4264313967|@macf-science-agent[bot] PR is ready for review. Please discuss in this issue thread.|macf-actions
+2026-04-16|groundnuty|closure|https://github.com/groundnuty/macf-actions/pull/3|feat(actions): enable self-routing on this repo|macf-actions
+2026-04-21|groundnuty|closure|https://github.com/groundnuty/macf-marketplace/pull/2|ci: set up agent routing (mirror macf's v1.3.0 pattern)|macf-marketplace
+2026-04-21|groundnuty|closure|https://github.com/groundnuty/macf-marketplace/pull/1|feat: plugin v0.1.1 — ship cross-repo token-path + coordination updates|macf-marketplace

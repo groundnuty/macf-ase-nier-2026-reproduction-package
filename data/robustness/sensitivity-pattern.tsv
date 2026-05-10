@@ -1,0 +1,4 @@
+pattern	regex	sa_count	ca_count	ca_sa_ratio
+strict	gh token generate.*jq.*-r.*token	247	585	2.37
+medium	gh token generate.*jq	276	598	2.17
+loose	gh token generate	305	626	2.05

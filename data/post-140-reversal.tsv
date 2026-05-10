@@ -1,0 +1,32 @@
+ts	src	classification	reason
+2026-04-21T03:01:57.958Z	macf	false-positive-grep	literal anti-pattern string in echo/grep/commit/heredoc
+2026-04-21T06:52:35.981Z	macf	canonical-helper-use	references canonical helper/hook script
+2026-04-21T09:37:56.571Z	macf-science-agent	canonical-helper-use	references canonical helper/hook script
+2026-04-21T15:34:13.765Z	macf-science-agent	false-positive-grep	literal anti-pattern string in echo/grep/commit/heredoc
+2026-04-21T15:36:32.425Z	macf-science-agent	false-positive-grep	literal anti-pattern string in echo/grep/commit/heredoc
+2026-04-21T15:38:43.508Z	macf-science-agent	deliberate-test	test/injection harness exercise
+2026-04-21T15:39:19.458Z	macf-science-agent	false-positive-grep	literal anti-pattern string in echo/grep/commit/heredoc
+2026-04-21T21:55:08.630Z	macf-science-agent	canonical-helper-use	references canonical helper/hook script
+2026-04-26T23:08:41.340Z	macf	false-positive-grep	literal anti-pattern string in echo/grep/commit/heredoc
+2026-05-09T10:24:31.740Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T10:25:24.106Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T10:25:41.960Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T10:28:52.984Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T10:40:25.281Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T10:43:28.870Z	macf-science-agent	canonical-helper-use	references canonical helper/hook script
+2026-05-09T10:44:39.234Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T10:47:07.453Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T10:52:34.640Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T10:53:04.218Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T10:53:21.988Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T10:57:27.330Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T10:59:23.596Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T12:07:16.844Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T12:09:16.250Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T12:10:17.472Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T12:11:18.973Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T12:11:50.150Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T12:13:11.848Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T13:19:58.794Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T13:24:30.807Z	macf-science-agent	self-reference	paper-research analysis session
+2026-05-09T13:27:11.660Z	macf-science-agent	self-reference	paper-research analysis session

@@ -1,0 +1,8 @@
+system	agent_identity	struct_defense	measurable	total_actions	mis_attrib_count	mis_attrib_rate	bot_share	source
+Copilot Coding Agent	NO (Apps can't assign Copilot)	NO (workarounds only)	qualitative	—	—	100% on squash-merge (structural)	—	GitHub Community #177721, #179983
+Cursor cloud-agent	NO (shared originator OAuth)	NO (per-team opt-out)	qualitative	—	—	100% session-identity-inherit (designed)	—	Cursor Forum #158866
+CPC predecessor (rule-discipline)	YES	NO	yes	943	67	7.1%	87.27%	reports/§10
+MACF substrate pre-#140	YES	NO	yes	~700 (7-day pre-window)	31	~4.4%	95.6%	reports/§04 (n=31 of pre-#140 events; subset of 2243 total)
+MACF substrate post-#140	YES	YES (PreToolUse hook)	yes	~1543 (18-day post-window)	0	0%	100%	reports/§04
+MACF substrate aggregate (5 repos, 41-day window)	YES	YES (post-#140)	yes	2243	31	1.4%	97.95%	reports/§03
+MACF consumer fleet (PPAM)	YES	YES (deployed via macf init)	yes	14-day window	0 GitHub-side mis-attrib + 8 hook-fires-caught	0%	~100%	reports/§20

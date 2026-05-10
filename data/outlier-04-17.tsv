@@ -1,0 +1,6 @@
+metric	value	notes
+total_events_2026-04-17	7333	jq-counted events with timestamp prefix 2026-04-17 in bfa64ae4-...jsonl
+real_bash_edit_write_2026-04-17	0	tool_use events with name in {Bash,Edit,Write}
+attachment_with_check_gh_token_2026-04-17	0	does not reproduce §12 prose's 1831 sub-claim (memory likely rotated)
+session_project	pprai-2026-claude-plan-composer-poster-alice	poster-paper-writing session, NOT real hook activity
+session_id	bfa64ae4-4637-4189-ba24-dbbed7780a92	specific session UUID per §12 prose

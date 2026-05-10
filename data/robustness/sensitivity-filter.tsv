@@ -1,0 +1,3 @@
+agent	raw_grep	bash_only_filter	inflation_factor
+science-agent	536	278	1.93
+code-agent	856	600	1.43

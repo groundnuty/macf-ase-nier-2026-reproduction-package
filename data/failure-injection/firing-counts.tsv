@@ -1,0 +1,5 @@
+pattern	K	N	rate	wilson_95_lower	notes
+C	20	20	100.0%	83.9%	heartbeat-detector test (kill -STOP injection); detector-not-firing-mode caveat documented
+D	20	20	100.0%	83.9%	aggregate-fail-loud workflow precheck (D1 local extract from observability-snapshot.yml); K=behaved-correctly (positive fired + negative quiet); D2 live CI separate
+A	20	20	100.0%	83.9%	post-gh-comment author re-check (cross-identity pivot per methodology-deviations.md §Pattern A; same assertion shape — different-bot vector instead of user-vs-bot)
+E	25	25	100.0%	86.7%	type-discriminator at receiver (post-#355 decideWake); 20 positive (peer_notification→skip) + 5 negative-control (issue_routed→wake)

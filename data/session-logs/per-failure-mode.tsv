@@ -1,0 +1,5 @@
+mode	description	sa_count	ca_count	total
+1	key.*fingerprint|invalid.*signature|signature verification	16	13	29
+2	JWT could not be decoded	21	6	27
+3+4	HTTP 401|Bad credentials	344	66	410
+5	macf-gh-token.*No such file|macf-gh-token.*not found	4	1	5

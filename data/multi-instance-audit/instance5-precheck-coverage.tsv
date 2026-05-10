@@ -1,0 +1,6 @@
+repo	workflow_file	has_precheck	uses_secrets
+macf	e2e.yml	0	2
+macf	npm-deprecate.yml	0	3
+macf	publish.yml	1	2
+macf-actions	agent-router.yml	0	28
+macf-devops-toolkit	observability-snapshot.yml	7	9

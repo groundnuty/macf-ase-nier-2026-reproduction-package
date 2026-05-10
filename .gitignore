@@ -1,0 +1,13 @@
+# Devbox / Nix state
+.devbox/
+.devbox.lock
+
+# Per-run scratch
+_cache/
+_outputs/
+*.tmp
+*.log
+
+# Editor cruft
+.DS_Store
+*.swp

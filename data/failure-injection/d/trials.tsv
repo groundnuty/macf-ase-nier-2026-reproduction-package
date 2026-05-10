@@ -1,0 +1,21 @@
+trial_n	variant	subcategory	outcome	duration_ms	missing_names	details
+1	1miss-TAILSCALE_OAUTH_CLIENT_ID	1-missing-unset	PASS	10	TAILSCALE_OAUTH_CLIENT_ID	defense fired correctly; aggregated all missing
+2	1miss-TAILSCALE_OAUTH_SECRET	1-missing-unset	PASS	10	TAILSCALE_OAUTH_SECRET	defense fired correctly; aggregated all missing
+3	1miss-OBS_RUNNER_SSH_KEY	1-missing-unset	PASS	10	OBS_RUNNER_SSH_KEY	defense fired correctly; aggregated all missing
+4	1miss-ARCHIVE_DEPLOY_KEY	1-missing-unset	PASS	11	ARCHIVE_DEPLOY_KEY	defense fired correctly; aggregated all missing
+5	1miss-OBS_RUNNER_HOST	1-missing-unset	PASS	11	OBS_RUNNER_HOST	defense fired correctly; aggregated all missing
+6	2miss-1	2-missing-unset	PASS	10	TAILSCALE_OAUTH_CLIENT_ID,TAILSCALE_OAUTH_SECRET	defense fired correctly; aggregated all missing
+7	2miss-2	2-missing-unset	PASS	11	OBS_RUNNER_SSH_KEY,ARCHIVE_DEPLOY_KEY	defense fired correctly; aggregated all missing
+8	2miss-3	2-missing-unset	PASS	11	TAILSCALE_OAUTH_CLIENT_ID,OBS_RUNNER_HOST	defense fired correctly; aggregated all missing
+9	2miss-4	2-missing-unset	PASS	11	TAILSCALE_OAUTH_SECRET,ARCHIVE_DEPLOY_KEY	defense fired correctly; aggregated all missing
+10	2miss-5	2-missing-unset	PASS	11	OBS_RUNNER_SSH_KEY,OBS_RUNNER_HOST	defense fired correctly; aggregated all missing
+11	all-present-1	all-present-control	PASS	15	-	negative-control: defense correctly stayed quiet (exit=0, no error annotation)
+12	all-present-2	all-present-control	PASS	14	-	negative-control: defense correctly stayed quiet (exit=0, no error annotation)
+13	all-present-3	all-present-control	PASS	14	-	negative-control: defense correctly stayed quiet (exit=0, no error annotation)
+14	1empty-TAILSCALE_OAUTH_CLIENT_ID	1-empty-string	PASS	10	TAILSCALE_OAUTH_CLIENT_ID	defense fired correctly; aggregated all missing
+15	1empty-OBS_RUNNER_SSH_KEY	1-empty-string	PASS	10	OBS_RUNNER_SSH_KEY	defense fired correctly; aggregated all missing
+16	1empty-OBS_RUNNER_HOST	1-empty-string	PASS	10	OBS_RUNNER_HOST	defense fired correctly; aggregated all missing
+17	1unset-iso-TAILSCALE_OAUTH_SECRET	1-unset-isolated	PASS	11	TAILSCALE_OAUTH_SECRET	defense fired correctly; aggregated all missing
+18	1unset-iso-ARCHIVE_DEPLOY_KEY	1-unset-isolated	PASS	11	ARCHIVE_DEPLOY_KEY	defense fired correctly; aggregated all missing
+19	1unset-iso-OBS_RUNNER_SSH_KEY	1-unset-isolated	PASS	11	OBS_RUNNER_SSH_KEY	defense fired correctly; aggregated all missing
+20	1unset-iso-OBS_RUNNER_HOST	1-unset-isolated	PASS	9	OBS_RUNNER_HOST	defense fired correctly; aggregated all missing

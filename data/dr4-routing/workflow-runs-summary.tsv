@@ -1,0 +1,5 @@
+repo	total_runs	success	failure	startup_failure	other	success_rate
+groundnuty/macf	1934	1916	16	2	0	99.07%
+groundnuty/macf-actions	212	206	4	2	0	97.17%
+groundnuty/macf-marketplace	90	90	0	0	0	100.00%
+groundnuty/macf-devops-toolkit	285	285	0	0	0	100.00%

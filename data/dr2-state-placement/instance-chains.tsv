@@ -1,0 +1,9 @@
+instance	memory_entries	insight_docs	canonical_commit	canonical_date
+1: gh-token attribution	feedback_attribution_repair_pattern.md,feedback_token_file_cache_pattern.md,reference_gh_token_attribution_traps.md	—	033479e	2026-04-26
+2: auto-close negation	feedback_github_negation_blind_autoclose.md	—	b36c6fe	2026-04-22
+3: RC IPC blocks tmux	reference_remote_control_ipc_blocks_tmux_routing.md	2026-04-26-remote-control-ipc-blocks-tmux-send-keys-routing.md	—	—
+4: Loki/CH divergence	—	—	4459af9	2026-04-25
+5: workflow secret name	—	—	—	—
+6: cross-agent loop	—	2026-04-27-cross-agent-notification-loop-hazard.md	f7a8403	2026-04-30
+7: OTel-counter cum	—	—	4459af9	2026-04-25
+8: OTLP endpoint drop	—	—	f7a8403	2026-04-30

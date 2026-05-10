@@ -1,0 +1,7 @@
+metric	value	notes
+L1_total_runs	2521	4 macf-* repos with routing-Action
+L1_success	2497	run-level workflow success
+L1_failure	24	includes startup_failure
+L1_availability_rate	99.05%	workflow-completion success rate
+L3_comments_with_mention	1315	comments with at least one @<bot>[bot] mention
+L3_inside_backticks	67	informational: comments with backtick-wrapped mentions (§5 hygiene; some may overlap with above)

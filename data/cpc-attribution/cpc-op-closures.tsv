@@ -1,0 +1,60 @@
+2026-03-25T04:20:12|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/361|Fix #360: Tier 4 expert-form simulation on STAR
+2026-03-25T04:20:14|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/issues/360|Run Tier 4: Expert-form simulation on STAR (all 3 rounds, compare with Piotrek)
+2026-03-27T05:57:05|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/355|Fix #352: KubeCon IDP v8 — greenfield IDP design
+2026-03-23T22:49:59|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/342|Fix #340: full architecture teams (retry after TeamDelete fix)
+2026-03-23T22:50:00|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/issues/340|Experiment: DayTrader FULL architecture teams — pairwise + 3 passes + peer debate + 7 rounds
+2026-03-23T03:24:29|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/326|Fix #323: question-based lenses vs default on DayTrader
+2026-03-23T03:24:31|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/issues/323|Experiment: question-based lenses vs default on DayTrader (tests F88 — same task prompt)
+2026-03-23T02:00:59|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/322|Fix #313: auto-enriched lenses vs default on DayTrader
+2026-03-23T02:01:01|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/issues/313|Experiment: auto-enriched lenses vs default lenses on DayTrader (tests F75/F76/F77)
+2026-03-22T21:10:56|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/306|Fix #304: DayTrader v3 — rich knowledge base experiment
+2026-03-22T21:10:58|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/issues/304|Run DayTrader v3: rich knowledge base (curated architecture docs + decomposition papers)
+2026-03-22T18:20:24|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/303|Fix #302: complete CheckEval — gemini, gpt4o, o3 for DayTrader v2 + DeepFRI v6
+2026-03-22T18:20:26|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/issues/302|Run missing CheckEval judges on VM: DayTrader v2 + DeepFRI v6 (gemini, gpt4o, o3)
+2026-03-21T14:31:40|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/291|Fix #290: CheckEval on v1 plans — teams vs simple with rich context
+2026-03-21T14:31:42|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/issues/290|CheckEval: run binary checklist on Piotrek v1 plans (rich context, teams 95.8%)
+2026-03-17T18:48:02|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/107|Fix #106: Add celebration entry to agent-collaboration-test.txt
+2026-03-17T18:32:50|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/105|fix: embed token refresh in PR creation and merge commands
+2026-03-17T17:46:44|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/104|Fix #103: Add celebration entry to agent-collaboration-test.txt
+2026-03-17T17:38:39|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/102|fix: separate merge from PR creation, enforce turn-based workflow
+2026-03-17T17:32:13|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/101|Fix #100: Add celebration entry to agent-collaboration-test.txt
+2026-03-17T17:21:36|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/99|fix: agent must STOP after posting review request
+2026-03-17T17:05:02|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/96|fix: use inline token for git push, do not modify remote URL
+2026-03-17T17:03:23|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/95|fix: deduplicate label routing — only trigger on labeled event
+2026-03-17T16:54:15|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/92|fix: combine finishing work steps into one command
+2026-03-17T16:54:31|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/91|Fix #90: Add celebration entry to collaboration test log
+2026-03-17T16:08:06|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/89|fix: always pull latest main before creating feature branch
+2026-03-17T15:43:16|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/87|fix: handle tmux send-keys failure in offline detection
+2026-03-17T14:51:06|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/83|fix: route discussion to issues, remove starting work comment
+2026-03-17T12:44:22|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/69|feat: add iterative review loop to agent lifecycle rules
+2026-03-17T11:58:56|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/66|chore: add agent collaboration test file
+2026-03-17T11:54:56|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/65|fix: single-line PR body template with @mention
+2026-03-17T11:51:01|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/64|chore: add no-console eslint rule
+2026-03-17T11:42:34|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/59|chore: add description to package.json
+2026-03-17T11:34:36|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/55|feat: update agent rules with lifecycle and PR body mention
+2026-03-17T11:34:44|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/54|Fix #53: Add description field to agent-config.json
+2026-03-17T10:44:47|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/46|Fix #45: add .editorconfig for consistent formatting
+2026-03-17T10:16:51|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/43|Fix #42: Add .nvmrc with Node 22
+2026-03-17T10:45:02|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/40|Fix #39: Add .editorconfig for consistent formatting
+2026-03-17T02:57:56|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/38|Fix #37: Add LICENSE header to agent-router.yml
+2026-03-17T02:43:09|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/36|fix: route @mentions in PR body to agents
+2026-03-17T02:43:06|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/35|docs: add CONTRIBUTORS.md listing bot contributors
+2026-03-17T02:43:10|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/issues/34|Agent router does not route @mentions in PR body
+2026-03-17T02:18:41|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/31|Fix #30: Add agent maintainer comment to README.md
+2026-03-16T04:21:15|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/27|fix: use @me for project owner in board sync
+2026-03-16T04:14:42|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/24|fix: use full tmux path for SSH commands
+2026-03-16T04:02:45|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/21|fix: add --repo flag to gh commands in agent router
+2026-03-16T03:58:40|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/19|feat: multi-agent GitHub coordination PoC
+2026-03-15T15:56:11|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/17|fix: fail early in E2E workflow when API key is missing
+2026-03-15T16:02:49|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/15|chore: bump @anthropic-ai/claude-agent-sdk from 0.2.72 to 0.2.76
+2026-03-15T16:01:48|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/11|ci: bump actions/setup-node from 4.4.0 to 6.3.0
+2026-03-15T16:02:10|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/10|chore: bump eslint from 9.39.4 to 10.0.3
+2026-03-15T16:01:45|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/9|ci: bump github/codeql-action from 3.29.0 to 4.32.6
+2026-03-15T16:01:42|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/8|ci: bump actions/checkout from 4.2.2 to 6.0.2
+2026-03-15T12:09:07|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/7|feat: add GitHub repository setup
+2026-03-14T10:26:38|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/pull/6|fix: resolve output paths to absolute, remove silent maxTurns multiplier
+2026-03-14T10:26:01|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/issues/5|Agents silently skip writing output unless prompt explicitly instructs them
+2026-03-14T10:25:50|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/issues/4|Plugin MCP servers require overly broad setting_sources configuration
+2026-03-14T10:10:08|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/issues/3|Bug: max_turns silently multiplied by 3 in agent-teams strategy
+2026-03-14T10:10:06|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/issues/2|Bug: work_dir causes output files to be written to wrong location
+2026-03-14T10:19:25|groundnuty|closure|https://github.com/groundnuty/claude-plan-composer/issues/1|Bug: agent-teams strategy missing 'Agent' tool — advocates never spawn

@@ -1,0 +1,26 @@
+trial_n	notify_type	outcome	mcp_pushed	wake_skipped	duration_ms	details
+1	peer_notification	PASS	true	true	5605	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346386 post_wact=1778346386 pre_sact=1778346386 post_sact=1778346386
+2	peer_notification	PASS	true	true	5847	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346391 post_wact=1778346391 pre_sact=1778346391 post_sact=1778346391
+3	peer_notification	PASS	true	true	5712	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346397 post_wact=1778346397 pre_sact=1778346397 post_sact=1778346397
+4	peer_notification	PASS	true	true	5730	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346403 post_wact=1778346403 pre_sact=1778346403 post_sact=1778346403
+5	peer_notification	PASS	true	true	5818	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346408 post_wact=1778346408 pre_sact=1778346408 post_sact=1778346408
+6	peer_notification	PASS	true	true	5735	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346414 post_wact=1778346414 pre_sact=1778346414 post_sact=1778346414
+7	peer_notification	PASS	true	true	5768	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346420 post_wact=1778346420 pre_sact=1778346420 post_sact=1778346420
+8	peer_notification	PASS	true	true	5572	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346426 post_wact=1778346426 pre_sact=1778346426 post_sact=1778346426
+9	peer_notification	PASS	true	true	5737	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346431 post_wact=1778346431 pre_sact=1778346431 post_sact=1778346431
+10	peer_notification	PASS	true	true	5564	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346437 post_wact=1778346437 pre_sact=1778346437 post_sact=1778346437
+11	peer_notification	PASS	true	true	6059	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346443 post_wact=1778346443 pre_sact=1778346443 post_sact=1778346443
+12	peer_notification	PASS	true	true	5711	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346449 post_wact=1778346449 pre_sact=1778346449 post_sact=1778346449
+13	peer_notification	PASS	true	true	5602	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346454 post_wact=1778346454 pre_sact=1778346454 post_sact=1778346454
+14	peer_notification	PASS	true	true	5807	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346460 post_wact=1778346460 pre_sact=1778346460 post_sact=1778346460
+15	peer_notification	PASS	true	true	5651	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346466 post_wact=1778346466 pre_sact=1778346466 post_sact=1778346466
+16	peer_notification	PASS	true	true	5891	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346472 post_wact=1778346472 pre_sact=1778346472 post_sact=1778346472
+17	peer_notification	PASS	true	true	5633	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346477 post_wact=1778346477 pre_sact=1778346477 post_sact=1778346477
+18	peer_notification	PASS	true	true	5816	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346483 post_wact=1778346483 pre_sact=1778346483 post_sact=1778346483
+19	peer_notification	PASS	true	true	5767	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346489 post_wact=1778346489 pre_sact=1778346489 post_sact=1778346489
+20	peer_notification	PASS	true	true	5957	positive: skipped wake; reason=peer_notification_autonomous_event; pre_wact=1778346495 post_wact=1778346495 pre_sact=1778346495 post_sact=1778346495
+21	issue_routed	PASS	true	false	6767	negative: woke as expected; pre_wact=1778346501 post_wact=1778346504 pre_sact=1778346501 post_sact=1778346501
+22	issue_routed	PASS	true	false	6929	negative: woke as expected; pre_wact=1778346507 post_wact=1778346511 pre_sact=1778346507 post_sact=1778346507
+23	issue_routed	PASS	true	false	6770	negative: woke as expected; pre_wact=1778346514 post_wact=1778346518 pre_sact=1778346514 post_sact=1778346514
+24	issue_routed	PASS	true	false	6777	negative: woke as expected; pre_wact=1778346521 post_wact=1778346524 pre_sact=1778346521 post_sact=1778346521
+25	issue_routed	PASS	true	false	6746	negative: woke as expected; pre_wact=1778346528 post_wact=1778346531 pre_sact=1778346528 post_sact=1778346528

@@ -1,0 +1,11 @@
+label	commit	date	subject
+instance1_first_obs	—	2026-04-15	(first 401-attributed comment in op-actions.tsv: macf#48)
+instance1_helper_swap	e740ec8	2026-04-16	swap naive gh-token-generate pattern for fail-loud helper (#90)
+instance1_140_filed	—	2026-04-20	(macf#140 issue filed by science-agent)
+instance1_142_merged	5b8bd2f	2026-04-20	security(hooks): pretooluse guard blocks gh/git-push on non-ghs_ token (#140) (#142)
+instance1_175_dogfood	92f9d50	2026-04-21	chore: dogfood-install check-gh-token.sh in .claude/scripts/ (#175)
+instance1_canonical_rule	033479e	2026-04-26	feat(rules): canonical gh-token-attribution-traps reference (6 failure modes) (#251)
+instance6_initial_loop	db068ff	2026-04-27	feat(channel-server): notify_peer mcp_tool + Stop hook (#256, DR-023 UC-1) (#265)
+instance6_pattern_e_fix	6280c38	2026-04-27	fix(channel-server): observational peer_notification + sender OTel + traceparent + 5s timeout (#267) (#268)
+instance6_canonical_rule	f7a8403	2026-04-30	docs: canonicalize silent-fallback-hazards (Refs macf-science-agent#9) (#294)
+instance8_canonical_rule	f7a8403	2026-04-30	docs: canonicalize silent-fallback-hazards (Refs macf-science-agent#9) (#294)

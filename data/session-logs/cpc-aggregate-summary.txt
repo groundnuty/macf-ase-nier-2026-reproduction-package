@@ -1,0 +1,39 @@
+CPC corpus aggregate (queried 2026-05-09)
+==========================================
+
+Source: macbook (<OPERATOR>@<TAILSCALE_IP>) — ssh access, ~/.claude/projects/*claude-plan-composer*/
+Total project dirs: 31 (1 main + 30 worktree-agent dirs)
+Total jsonl files: 922
+Total size: 1638 MB
+
+Aggregate metrics:
+  Anti-pattern (gh token generate | jq):  14,884 grep hits
+  Token-helper script references:         0
+  Hook-fire / attribution-trap markers:   0
+
+Project lifetime:
+  Earliest event: 2026-02-21
+  Latest event:   2026-05-05
+  Total active days: 41 (with caveats: most activity 2026-03-17 to 2026-03-27)
+
+Comparison to MACF substrate:
+  CPC anti-pattern: 14,884 across 41 active days (avg 363/day, peak 5651)
+  MACF anti-pattern: 2,248 across 41 active days (avg 55/day, peak 812)
+  Ratio: CPC was 6.6x more anti-pattern-heavy than MACF substrate
+
+Structural defenses:
+  CPC: NONE (no helper script deployed, no PreToolUse hook ever)
+  MACF: helper script (#131) + PreToolUse hook (#140/#142) + canonical rules
+
+Behavior trajectory:
+  CPC: gradual natural decline 2026-03-18 (5651) → 2026-03-26 (13) over 8-10 days
+       NO infrastructure-driven inflection point
+       Decline likely driven by project wind-down + crisis-awareness
+  MACF: sharp inflection at 2026-04-21 when structural defense deployed
+        Infrastructure-driven retirement of the failure mode
+
+Methodological note:
+  3725 "check-gh-token.sh OR PreToolUse" hits in one CPC session (bfa64ae4-463)
+  are CONCEPTUAL REFERENCES — agents in that long-running CPC session discussed
+  MACF's eventual hook (date span extends to 2026-04-22, past MACF's #140 date).
+  These are NOT actual deployed-hook invocations in CPC.

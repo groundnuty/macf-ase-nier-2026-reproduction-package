@@ -1,0 +1,4 @@
+trial_n	run_url	outcome	missing_names	notes
+1	https://github.com/groundnuty/macf/actions/runs/25606185403	PASS	-	negative-control: all 3 vars present; precheck exit 0; main-work step ran (defense correctly stayed quiet)
+2	https://github.com/groundnuty/macf/actions/runs/25606195097	PASS	TEST_VAR_A	1-missing: TEST_VAR_A deleted; precheck failure; ::error::Missing required workflow inputs:: + ::error::  - TEST_VAR_A (variable):: aggregated in single error block; main-work step skipped
+3	https://github.com/groundnuty/macf/actions/runs/25606203762	PASS	TEST_VAR_A,TEST_VAR_B	2-missing: TEST_VAR_A+B deleted; precheck failure; BOTH names aggregated under single ::error::Missing required workflow inputs:: header (load-bearing aggregate-fail-loud assertion); main-work step skipped

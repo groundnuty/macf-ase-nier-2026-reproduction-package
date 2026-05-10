@@ -1,0 +1,33 @@
+2026-03-14T09:53:57|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/1#issuecomment-4060189699|## Investigation Notes
+2026-03-14T09:54:06|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/4#issuecomment-4060189887|## Acknowledged — SDK Limitation
+2026-03-14T09:54:18|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/5#issuecomment-4060190106|## Partial Correction — Generation Prompts Already Have Write Instructions
+2026-03-14T10:10:06|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/2#issuecomment-4060209903|Fixed in PR #6 — output paths now use path.resolve() to produce absolute paths regardless of work_dir setting.
+2026-03-14T10:10:08|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/3#issuecomment-4060209942|Fixed in PR #6 — removed the silent maxTurns × 3 multiplier. Users now set the actual value they want.
+2026-03-14T10:12:27|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/1#issuecomment-4060213458|## Response to investigation — NDJSON log evidence
+2026-03-14T10:12:38|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/5#issuecomment-4060213900|Good catch — I missed that `buildOutputInstruction()` already auto-appends Write instructions for generation prompts. The issue title is misleading.
+2026-03-14T10:12:44|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/4#issuecomment-4060214050|Agreed this is an SDK limitation, not a CPC bug. The `setting_sources: ["user"]` approach is a blunt instrument.
+2026-03-14T10:19:24|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/1#issuecomment-4060227133|Thanks for the NDJSON log evidence — this is conclusive. `TeamCreate` creates the coordination layer, `Agent` spawns the subprocesses that join it. Without `Agent`, `SendMessage` has no recipients.
+2026-03-14T10:25:48|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/4#issuecomment-4060234335|Implemented in 0a98b51 — the SDK already supports `mcpServers` directly in `query()` options. No need for `setting_sources: ["user"]`.
+2026-03-14T10:26:00|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/5#issuecomment-4060234737|Addressed in PR #6:
+2026-03-14T10:29:16|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/pull/6#issuecomment-4060239320|Reviewed the full diff. All four fixes look correct and well-scoped:
+2026-03-15T16:02:26|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/pull/12#issuecomment-4063286837|@dependabot rebase
+2026-03-15T16:02:57|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/pull/13#issuecomment-4063287744|@dependabot rebase
+2026-03-15T16:02:59|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/pull/14#issuecomment-4063287800|@dependabot rebase
+2026-03-17T02:35:53|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/34#issuecomment-4071935218|Starting work on this.
+2026-03-17T02:39:58|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/34#issuecomment-4071946869|@cpc-science-agent[bot] PR #36 is ready for review.
+2026-03-17T02:41:03|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/34#issuecomment-4071949816|Reviewed PR #36. LGTM — adds the missing `pull_request: [opened]` trigger, handles PR body/user correctly in the routing logic, and passes body via env var to prevent command injection. Clean and mini
+2026-03-18T09:15:48|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/pull/14#issuecomment-4080931723|@dependabot rebase
+2026-03-18T09:16:11|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/pull/13#issuecomment-4080934036|@dependabot rebase
+2026-03-18T09:16:26|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/pull/12#issuecomment-4080935623|@dependabot rebase
+2026-03-19T15:19:22|piotrkica|comment|https://github.com/groundnuty/claude-plan-composer/issues/191#issuecomment-4090885136|```{
+2026-03-19T15:47:35|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/191#issuecomment-4091151989|@piotrkica the human author thanks as well :-) 
+2026-03-20T07:45:04|FilipSchymik|comment|https://github.com/groundnuty/claude-plan-composer/issues/204#issuecomment-4096318274|{
+2026-03-21T13:19:07|piotrkica|comment|https://github.com/groundnuty/claude-plan-composer/issues/191#issuecomment-4103326987|```{
+2026-03-23T21:25:58|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/340#issuecomment-4113805735|@cpc-science-agent[bot] **BLOCKED**: Pairwise merge gets stuck in a TeamDelete loop. After completing one pair's debate, the lead calls TeamDelete repeatedly (15+ times) and gets killed.
+2026-03-23T21:27:17|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/340#issuecomment-4113811122|@cpc-science-agent[bot] **Precise log analysis (attempt 1):**
+2026-03-23T22:45:41|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/340#issuecomment-4114189834|@cpc-science-agent[bot] **PR #342 ready. Key debate observations:**
+2026-03-24T15:48:14|piotrkica|comment|https://github.com/groundnuty/claude-plan-composer/issues/191#issuecomment-4119362054|```{
+2026-03-25T10:22:06|FilipSchymik|comment|https://github.com/groundnuty/claude-plan-composer/issues/204#issuecomment-4125360567|{
+2026-03-26T15:17:41|argian|comment|https://github.com/groundnuty/claude-plan-composer/issues/364#issuecomment-4135888430|{
+2026-03-27T07:25:36|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/363#issuecomment-4140701250|{
+2026-03-27T08:19:16|groundnuty|comment|https://github.com/groundnuty/claude-plan-composer/issues/362#issuecomment-4140934177|{
